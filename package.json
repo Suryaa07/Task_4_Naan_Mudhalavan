@@ -1,0 +1,25 @@
+{
+  "name": "social-media-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node utils/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inna-arabejo/social-media-mongodb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inna-arabejo/social-media-mongodb/issues"
+  },
+  "homepage": "https://github.com/inna-arabejo/social-media-mongodb#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.10.5"
+  }
+}
